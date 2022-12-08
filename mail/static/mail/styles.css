@@ -1,0 +1,54 @@
+textarea {
+    min-height: 400px;
+    white-space: pre-wrap;
+    white-space: pre-line;
+}
+
+/* This is all the sent stuff */
+
+#emails-view {
+}
+
+#email_div{
+    padding: 5px;
+    display: flex; 
+    justify-content: flex-start;
+    font-family: "Times New Roman";
+    border-radius: 5px;
+}
+
+#email_from {
+    padding-right: 7.5px;
+}
+
+#subject_line {
+}
+
+#timestamp { 
+    margin-left: auto;
+}
+
+/* This is to read the emails */
+
+#from, #to, #subject, #timestamp {
+    font-weight: thin; 
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+#Contents {
+    margin-top: 20px;
+}
+
+#header {
+    border-bottom: 1.5px solid rgb(232,232,232);
+}
+
+#reply {
+    margin-right: 10px;
+}
+
+
+/* This is for your inbox */
+
+
